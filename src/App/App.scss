@@ -1,12 +1,27 @@
-.App{
-    width: 800px;
+.App {
+    min-width: 320px;
+    max-width: 1000px;
     border: solid 10px teal;
     padding: 20px;
     margin: 25px auto;
+    background-color: white;
 }
 
+@media only screen and (min-width: 600px) {
+    .App {
+       
+        border: solid 10px rgb(6, 218, 218);
+       
+    }
+    
+  
+}
+@media only screen and (min-width: 800px) {
+    
+    body { 
+        // outline:solid green;
 
 
-
-
-
+        
+    }
+}
