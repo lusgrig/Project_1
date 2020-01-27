@@ -22,7 +22,7 @@ nav{
 
             text-decoration: none;
             text-transform: uppercase;
-            transition: all .5s;
+            // transition: all .5s;
             width: 18%;
 
             &:hover{
@@ -78,7 +78,7 @@ nav{
             text-align: center;
             text-transform: uppercase;
             transition: all .5s;
-            width: 29%;
+            width: 5%;
             &:hover{
                 background-color: #3d3d3d;
                 color:rgb(238, 237, 171);
@@ -86,11 +86,9 @@ nav{
             }
         
             }  
-            .links{
-                display: none;
-                     
-            
-        } 
+            .fa-bars {
+                font-size: 1.5em;
+            }
 
         }
         
