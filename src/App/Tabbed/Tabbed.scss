@@ -1,0 +1,39 @@
+.Tabbed{
+    color: #ffff8a;
+    .tabs{
+        display: flex;
+        cursor: pointer;
+       
+      
+        .tab{
+            background-color: teal;
+            padding: 10px 20px;
+            border-radius: 5px 5px 0px 0px;
+            margin-left: 10px;
+            &:hover{
+                background-color: red;
+            }
+            &:focus{
+                background-color: red;
+            }
+            &:visited{
+                background-color: red;
+            }
+        }
+    }
+    .content{
+        background-color: teal;
+        padding: 20px;
+
+        img{
+
+        }
+        h2{
+
+        }
+        p{
+
+        }
+    }
+    
+}
